@@ -33,12 +33,19 @@ header nav ul li a {
 
 main {
     padding: 1rem;
+    
 }
 
 section {
     margin-bottom: 2rem;
 }
-
+section img {
+  float: right;
+    width: 230px; /* Задайте желаемую ширину */
+    height: auto; /* Сохранение пропорций */
+    display: block; /* Для центрирования можно добавить margin */
+    margin: 0 auto;
+}
 section h2 {
     border-bottom: 2px solid #333;
     padding-bottom: 0.5rem;
